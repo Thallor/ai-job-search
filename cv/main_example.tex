@@ -1,18 +1,11 @@
-%% Example CV - [YOUR_NAME]
-%% Comprehensive overview of all competencies, experience, and achievements.
-%% Use as a master reference when tailoring role-specific CVs.
-%%
-%% SETUP: Run /setup to populate this with your actual information.
+%% James Edwards - Master CV
+%% Use as master reference when tailoring role-specific CVs.
 %% Compile with: lualatex main_example.tex
-%% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
 \documentclass[11pt,a4paper,sans]{moderncv}
 \moderncvstyle{banking}
 \moderncvcolor{blue}
 
-% Force both first and last name AND section headings to render in moderncv
-% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
-% looks inconsistent with the rest of the blue accent scheme.
 \renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
@@ -24,29 +17,24 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={James Edwards - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
-\usepackage{import}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{James}{Edwards}
+\address{Singapore}{}{}
+\phone[mobile]{+61 423 901 842}
+\email{jfjedwards@icloud.com}
+\extrainfo{\href{https://linkedin.com/in/james-f-edwards}{LinkedIn}}
 
 \begin{document}
 
 \makecvtitle
 
-% ============================================================
-%     PROFILE STATEMENT
-% ============================================================
-
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Senior SEO \& Content Marketing Manager with 8 years' experience in fintech, crypto, and SaaS. Combines deep domain fluency in investing and personal finance with proven ability to drive organic revenue growth, scale content operations, and build AI-powered workflows. Track record of delivering measurable business impact: 350\% YoY organic revenue uplift, 3x LLM brand mention growth, and 15\% conversion rate on content-driven acquisition funnels.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -56,15 +44,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{SEO \& Organic Growth}: Full-funnel SEO strategy, topical authority, E-E-A-T, on-page/off-page, technical SEO, schema, site architecture, programmatic SEO.
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{AI-Search (GEO/AEO)}: Google AI Overviews, ChatGPT, Perplexity, LLM citation optimisation — content structure, semantic coverage, entity optimisation, FAQ schema at scale.
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Content \& Editorial Leadership}: Distributed team management (up to 15 writers), editorial strategy, style guides, QA workflows, brand voice governance, multi-market content operations.
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Multi-Channel Campaigns}: Integrated planning across SEO, content, email, social, partnerships, and influencer marketing. Co-marketing with Coinbase and MetaMask.
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Agentic AI Workflows}: Advanced workflow building with Cursor, Claude Code, MCP servers, N8N. Automated content scaling, social listening, editorial QA.
 
 \end{itemize}
 
@@ -76,32 +64,50 @@
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- Summ ---
+\item{\cventry{Jan 2024--Jan 2026}{Senior SEO \& Content Marketing Manager}{Summ (fka Crypto Tax Calculator)}{Remote}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Led global SEO, content and organic growth function for crypto tax SaaS with 100k+ users across 20+ countries. Full ownership of organic revenue from traffic through trial-to-paid conversion.
+    \item Designed and executed integrated content + SEO strategy for US Tax Season 2025, delivering +350\% YoY organic revenue uplift from search content despite -11\% traffic decline driven by AI Overview behavioural shifts.
+    \item Grew LLM brand mentions from 350k to 1.1M monthly in under 4 months through systematic AI-search optimisation: structured answers, entity coverage, FAQ schema at scale.
+    \item Built programmatic SEO workflow localising 200+ long-tail pages across AU, US, UK markets — replacing a month-long content team effort with a solo, repeatable system.
+    \item Created free calculator/tool suite achieving ~15\% conversion rate, serving as LLM-proof traffic capture and email acquisition funnel.
+    \item Co-led full website redesign and rebrand, owning information architecture, page-level content strategy, and SEO requirements.
+    \item Led influencer marketing programme: partner selection, deal negotiation, budget allocation, CAC model input.
+    \item Built automated social listening/reply system (N8N + LLM + Slack approval) for X/Twitter and Reddit engagement.
+    \item Directed Reddit CPA strategy for combined GEO (LLM citation) and SEO value.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- ValueWalk ---
+\item{\cventry{2024}{Managing Editor}{ValueWalk (Clickout Media)}{Remote}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Managed distributed editorial team of 4 full-time direct reports (UK/US-based).
+    \item Set editorial direction and strategy; responsible for performance management.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- Finder Global Editor ---
+\item{\cventry{2020--2023}{Global Editor, Cryptocurrency \& Investing}{Finder.com}{Sydney, AU}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Led crypto vertical across 30+ markets for major comparison/financial services platform.
+    \item Managed up to 15 writers at peak (3 agencies + 5 individual contributors) across AU, US, UK, and global markets.
+    \item Pitched and delivered branded content campaigns for American Express, Zurich, and Trezor.
+    \item Launched annual awards programme generating 70+ backlinks and significant share of voice.
+    \item Produced diverse content types: evergreen, news, landing pages, email newsletter, sponsored content, long-form and short-form video.
+    \item Consolidated team during market downturn (2022-2023) to 2 remote FT staff + 2-3 freelancers; maintained output quality through weekly editorial meetings and fortnightly workshops.
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Finder Video Producer ---
+\item{\cventry{2018--2020}{Video Producer, Writer \& Editor}{Finder.com}{Sydney, AU}{}{\vspace{1pt}
+\begin{itemize}
+    \item Full-stack producer of Crypto Finder daily YouTube show grown to 15,000 subscribers.
+    \item Conducted 200+ interviews with high-profile guests in crypto and finance.
+    \item Managed production team across timezones (Berlin to Sydney) with async handover workflows.
 \end{itemize}}}
 
 \end{itemize}
@@ -114,15 +120,23 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
+\item{\cventry{2014--2017}{Bachelor of Science (Psychology)}{University of Sydney}{Sydney, AU}{}{\vspace{1pt}
 }}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
+\item{\cventry{}{User Experience Design}{General Assembly}{}{}{\vspace{1pt}
 }}
+
+\vspace{3pt}
+
+\item{\cventry{}{Front-End Web Development}{General Assembly}{}{}{\vspace{1pt}
+}}
+
+\vspace{3pt}
+
+\item{\cventry{}{Tier-1 Compliance RG146 (ASIC)}{Kaplan Professional}{}{}{\vspace{1pt}
+}}}
 
 \end{itemize}
 
@@ -133,27 +147,19 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
+\item English (native).
 \end{itemize}
 
 % ============================================================
-%     PUBLICATIONS (optional)
+%     TOOLS
 % ============================================================
 
-\section{Publications}
+\section{Tools \& Platforms}
 \vspace{1pt}
 \begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item SEO: SEMrush, Ahrefs, Accuranker, GA4, Google Search Console, Posthog
+\item AI Workflows: Cursor, Claude, Claude Code, MCP agents, N8N
+\item Content: WordPress, various CMS platforms, editorial management
 \end{itemize}
 
 % ============================================================

@@ -1,10 +1,9 @@
-# Job Application Assistant for [YOUR_NAME]
+# Job Application Assistant for James Edwards
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+<!-- Fully populated with actual profile - last updated June 4, 2026 -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for James Edwards, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,68 +12,87 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** James Edwards
+- **Location:** Singapore (remote only)
+- **Citizenship:** Australian citizen
+- **Languages:** English (native)
+- **Status:** Actively seeking (made redundant January 2026 - 30% company reduction)
+- **LinkedIn headline:** Senior SEO & Content Marketing Manager | Fintech, Crypto, SaaS
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Bachelor of Science in Psychology** (2014-2017) - University of Sydney
+- **User Experience Design** - General Assembly
+- **Front-End Web Development** - General Assembly
+- **Tier-1 Compliance RG146 (ASIC)** - Kaplan Professional
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+
+- **Senior SEO & Content Marketing Manager** (Jan 2024 - Jan 2026) - **Summ (fka Crypto Tax Calculator)** (Remote, AU)
+  - Led global SEO, content and organic growth function for crypto tax SaaS with 100k+ users across 20+ countries
+  - Full ownership of organic revenue: traffic, sign-ups, trial-to-paid conversion
+  - US Tax Season 2025: Designed and executed integrated content + SEO strategy delivering +350% YoY revenue from organic search content
+  - Grew LLM brand mentions from 350k to 1.1M monthly in under 4 months via AI-search optimization
+  - Built programmatic SEO workflow localizing 200+ long-tail pages across AU, US, UK markets
+  - Created free calculator/tool suite achieving ~15% conversion rate
+  - Co-led full website redesign and rebrand (information architecture, content strategy, SEO)
+  - Led influencer marketing programme (partner selection, deal negotiation, budget allocation)
+  - Built automated social listening/reply system (N8N + LLM + Slack approval layer)
+  - Directed Reddit CPA strategy for GEO/SEO gains
+
+- **Managing Editor** (2024) - **ValueWalk / Clickout Media** (Remote)
+  - Managed distributed editorial team of 4 full-time direct reports (UK/US-based)
+  - Set editorial direction and strategy; responsible for performance management
+  - Left quickly due to ethical concerns with company tactics
+
+- **Global Editor, Cryptocurrency & Investing** (2020-2023) - **Finder.com** (Sydney, AU)
+  - Led crypto vertical across 30+ markets for major comparison/financial services platform
+  - Managed up to 15 writers at peak (3 agencies + 5 individual contributors)
+  - Pitched and delivered branded content for American Express, Zurich, Trezor
+  - Launched annual awards programme generating 70+ backlinks
+  - Produced: evergreen content, news, landing pages, email newsletter, sponsored content, video
+
+- **Video Producer, Writer & Editor** (2018-2020) - **Finder.com** (Sydney, AU)
+  - Full-stack producer of Crypto Finder daily YouTube show (15k subscribers)
+  - Conducted 200+ interviews with high-profile guests in crypto and finance
+  - Managed production team across timezones (Berlin → Sydney)
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
-
-### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
-
-### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
-
-### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- **SEO & Analytics:** SEMrush, Ahrefs, Accuranker, GA4, Google Search Console, Posthog
+- **AI Workflows:** Cursor, Claude, Claude Code, MCP agents, N8N
+- **Content & Editorial:** WordPress, various CMS, editorial strategy, style guides
+- **AI-Search (GEO/AEO):** Google AI Overviews, ChatGPT, Perplexity, LLM citation optimization
+- **Marketing:** Multi-channel campaign strategy, content marketing, email/lifecycle, social media, influencer marketing
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Async-first, meetings on demand** - deep focus preference, consolidated meeting days
+- **Default to public channels** - keeps teams informed, creates searchable records
+- **Cross-functional** - comfortable across product, growth, design, dev, performance marketing
+- **Honest about scope** - clear on what I own vs. contribute to
+- **Strengths:** Domain fluency in fintech/investing, integrated campaign thinking, editorial leadership, agentic AI workflows
+- **Growth areas:** Full paid media budget ownership (adjacent experience, learning actively)
+- **Thrives in:** Remote-first, async cultures; fintech, SaaS, investing domains
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Building content systems that work at scale
+- The intersection of SEO, AI-search, and product marketing
+- Creating measurable revenue impact through organic channels
+- Agentic AI workflows that multiply output without multiplying headcount
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- **Fintech/SaaS:** Content Marketing Manager, SEO Manager, GEO/AI Search Specialist
+- **Investing/Crypto:** Product Marketing Manager, Content Lead
+- **Preferred direction:** Product marketing or social media marketing (more creative scope, less algorithm risk than pure SEO)
+- **Seniority:** Open to both senior IC and manager-level roles
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Must be remote-friendly (based in Singapore)
+- No visa sponsorship - no longer needed
+- No roles requiring return-to-office mandates
+- No companies with ethical concerns around their business model
+
+### Key Reference
+- **Michael Stokes (COO, Summ):** Previously VP Strategy & Operations at Linktree. Strong advocate. Available as reference.
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
